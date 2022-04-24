@@ -1,10 +1,10 @@
 {
-  "name": "@paulossouza/tslint",
+  "name": "@boostedp/tslint",
   "version": "0.0.1",
   "main": ".eslintrc.json",
   "repository": {
     "type": "git",
-     "url": ""
+     "url": "https://github.com/PaulosSouza/typescript-settings/tree/main/eslint"
   },
   "license": "MIT",
   "dependencies": {
