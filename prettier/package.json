@@ -1,6 +1,16 @@
 {
-  "name": "prettier",
+  "name": "@boostedp/prettier",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulosSouza/typescript-settings/tree/main/prettier"
+  },
+  "peerDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
 }
