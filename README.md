@@ -25,7 +25,6 @@ Prettier on the order hand, organize your code as simples as it can leave more o
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-<br>
 
 ## 😏 Eslint 
 In project folder run the follow command:
@@ -46,8 +45,6 @@ Create a file .eslintrc.json and add my plugin inside extends array
 
 After done theses steps go ahead and write 🚀
 
-<br>
-
 ## 😉 Prettier
 In project folder run the follow command:
 ```bash
@@ -67,7 +64,6 @@ module.exports = {
   ...prettierPlugin
 };
 ```
-<br>
 
 ## 🧐 Remember
 
