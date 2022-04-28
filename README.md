@@ -43,8 +43,6 @@ Create a file .eslintrc.json and add my plugin inside extends array
 }
 ```
 
-After done theses steps go ahead and write 🚀
-
 ## 😉 Prettier
 In project folder run the follow command:
 ```bash
