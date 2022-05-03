@@ -56,7 +56,7 @@ $ yarn add @boostedp/prettier -D
 Create a file .prettierrc.js and add these lines of codes.
 
 ```js
-const prettierPlugin = require("@bootsedp/prettier");
+const prettierPlugin = require("@boostedp/prettier");
 
 module.exports = {
   ...prettierPlugin
