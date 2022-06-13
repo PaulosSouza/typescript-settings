@@ -1,10 +1,10 @@
 {
   "name": "@boostedp/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": {
     "type": "git",
-     "url": "https://github.com/PaulosSouza/typescript-settings/tree/main/eslint"
+    "url": "https://github.com/PaulosSouza/typescript-settings/tree/main/eslint"
   },
   "license": "MIT",
   "peerDependencies": {
