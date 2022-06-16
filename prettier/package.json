@@ -8,9 +8,9 @@
     "url": "https://github.com/PaulosSouza/typescript-settings/tree/main/prettier"
   },
   "peerDependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.1"
   },
   "dependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.1"
   }
 }
