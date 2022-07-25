@@ -14,20 +14,19 @@ jobs:
       - name: Checkout repository code
         uses: actions/checkout@v3
 
-      - name: Get into eslint folder
-        run: cd eslint
-
       - name: Setup Nodejs
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
 
-      - run: pwd
-
       - name: Install dependencies
-        run: yarn --frozen-lockfile 
+        run: |
+          cd eslint
+          yarn --frozen-lockfile 
 
       - name: Publish package on NPM registry
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm publish
+        run: |
+          cd eslint
+          npm publish
