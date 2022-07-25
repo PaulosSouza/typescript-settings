@@ -6,6 +6,9 @@ on:
       - 'eslint/**'
       - '.github/**'
 
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,8 +28,6 @@ jobs:
           yarn --frozen-lockfile 
 
       - name: Publish package on NPM registry
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           cd eslint
           npm publish
