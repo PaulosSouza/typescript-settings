@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: lts/*
 
+      - run: pwd
+
       - name: Install dependencies
         run: yarn --frozen-lockfile 
 
