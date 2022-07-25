@@ -2,8 +2,6 @@ name: @Bootstedp/eslint-config Deploy
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'eslint/**'
 
