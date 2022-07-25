@@ -28,3 +28,4 @@ jobs:
       - name: Publish package on NPM registry
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
