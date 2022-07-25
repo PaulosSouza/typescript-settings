@@ -1,4 +1,4 @@
-name: @Bootstedp/eslint-config Deploy
+name: "@Bootstedp/eslint-config Deploy"
 
 on:
   push:
