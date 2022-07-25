@@ -9,10 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    defaults:
-        run:
-          working-directory: ./eslint
     
     steps:
       - name: Checkout repository code
@@ -26,8 +22,10 @@ jobs:
 
       - name: Install packages
         run: npm ci
+        working-directory: ./eslint
 
       - name: Publish package on NPM registry
         run: npm publish
+        working-directory: ./eslint
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
