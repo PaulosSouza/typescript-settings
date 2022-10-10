@@ -41,6 +41,23 @@ module.exports = {
         argsIgnorePattern: "^_",
       },
     ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        argsIgnorePattern: "^_",
+      },
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "interface",
+        format: ["PascalCase"],
+        custom: {
+          regex: "^I[A-Z]",
+          match: true,
+        },
+      },
+    ],
   },
   settings: {
     "import/parsers": {
