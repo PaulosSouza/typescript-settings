@@ -1,6 +1,6 @@
 {
   "name": "@boostedp/prettier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -11,6 +11,6 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
-    "prettier": "^2.8.1"
+    "prettier": "^3.0.2"
   }
 }
